@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Real Estate Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #444;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .container {
+      padding: 20px;
+    }
+    .listing {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .listing img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Your Real Estate Company</h1>
+  <p>Find your dream home today!</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Listings</a>
+  <a href="#">Contact Us</a>
+  <a href="#">About</a>
+</nav>
+
+<div class="container">
+  <h2>Available Properties</h2>
+
+  <div class="listing">
+    <img src="https://via.placeholder.com/600x400" alt="House 1">
+    <h3>Beautiful 3 Bedroom House</h3>
+    <p>Location: City A</p>
+    <p>Price: $500,000</p>
+  </div>
+
+  <div class="listing">
+    <img src="https://via.placeholder.com/600x400" alt="House 2">
+    <h3>Luxury Villa with Pool</h3>
+    <p>Location: City B</p>
+    <p>Price: $1,200,000</p>
+  </div>
+
+  <div class="listing">
+    <img src="https://via.placeholder.com/600x400" alt="House 3">
+    <h3>Modern Apartment in Downtown</h3>
+    <p>Location: City C</p>
+    <p>Price: $300,000</p>
+  </div>
+
+</div>
+
+<footer style="background-color: #333; color: white; text-align: center; padding: 10px;">
+  <p>&copy; 2024 Your Real Estate Company. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
